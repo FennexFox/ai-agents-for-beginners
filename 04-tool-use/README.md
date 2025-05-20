@@ -188,7 +188,7 @@ Let's use the example of getting the current time in a city to illustrate:
           messages=messages,
       )
   
-      return final_response.choices[0].message.content
+      print(final_response.choices[0].message.content)
      ```
 
      ```bash
